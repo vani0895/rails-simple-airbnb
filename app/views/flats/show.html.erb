@@ -1,0 +1,14 @@
+<div class="container">
+
+  <div class="col-4 flat-card">
+    <div class="flat-card-title">
+        <h4><%= "#{@flat.name}" %></h4>
+        <p><%= "#{@flat.address}" %></p>
+        <p><%= "#{@flat.description}" %></p>
+    </div>
+      <div class="flex align-items-center">
+        <i class="fa-solid fa-people-line"><%= "#{@flat.number_of_guests}" %></i>
+        <i class="fa-solid fa-euro-sign ms-3"><%= "#{@flat.price_per_night}" %></i>
+      </div>
+
+</div>
